@@ -1,0 +1,50 @@
+{
+    "version":"Sample 1.0.0",
+    "model": "model.moc",
+    "textures": [
+        "textures.1024/00.png",
+        "textures.1024/01.png",
+        "textures.1024/02.png"
+    ],
+    "pose": "general/pose.json",
+    "physics": "physics.json",
+    "layout": {
+        "center_x": 0,
+        "center_y": -0.4,
+        "width": 3
+    },
+    "hit_areas_custom":{
+		"head_x":[-0.35, 0.6],
+		"head_y":[0.19, -0.2],
+		"body_x":[-0.3, -0.25],
+		"body_y":[0.3, -0.9]
+	},
+	"expressions": [
+	    {"name": "normal", "file": "general/exp/normal.json"},
+	    {"name": "happy", "file": "general/exp/happy.json"},
+	    {"name": "unhappy", "file": "general/exp/unhappy.json"},
+	    {"name": "kira", "file": "general/exp/kira.json"},
+	    {"name": "deformed", "file": "general/exp/deformed.json"},
+	    {"name": "enjoy", "file": "general/exp/enjoy.json"}
+	],
+	"motions": {
+        "idle": [
+            {"file": "general/mtn/idle_00.mtn", "fade_in": 2000, "fade_out": 2000},
+            {"file": "general/mtn/idle_01.mtn", "fade_in": 2000, "fade_out": 2000},
+            {"file": "general/mtn/idle_02.mtn", "fade_in": 2000, "fade_out": 2000}
+        ],
+        "flick_head": [
+            {"file": "general/mtn/smile.mtn"},
+            {"file": "general/mtn/shake.mtn"},
+            {"file": "general/mtn/refuse.mtn"},
+            {"file": "general/mtn/tilt_head.mtn"}
+        ],
+        "tap_body": [
+            {"dialogue": 11, "sound": "general/snd/001.ogg", "file": "general/mtn/nep_touch_head_1.mtn"},
+            {"dialogue": 13, "sound": "general/snd/013.ogg", "file": "general/mtn/nep_touch_belly_1.mtn"},
+            {"dialogue": 90, "sound": "general/snd/101.ogg", "file": "general/mtn/nep_slide_head_2.mtn"},
+            {"dialogue": 93, "sound": "general/snd/007.ogg", "file": "general/mtn/nep_touch_boobs_1.mtn"},
+            {"dialogue": 94, "sound": "general/snd/014.ogg", "file": "general/mtn/nep_touch_belly_2.mtn"}
+        ]
+	}
+}
