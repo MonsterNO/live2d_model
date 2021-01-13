@@ -1,0 +1,85 @@
+{
+    "version": "Sample 1.0.0",
+    "model": "nito.moc",
+    "textures": [
+        "textures/texture_00.png",
+        "textures/texture_01.png"
+    ],
+"hit_areas_custom":{
+		"head_x":[-0.35, 0.6],
+		"head_y":[0.19, -0.2],
+		"body_x":[-0.3, -0.25],
+		"body_y":[0.3, -0.9]
+	},
+    "motions": {
+        "idle": [
+            {
+                "file": "motions/00_idle.mtn"
+            }
+        ],
+	"tap_body":[
+	{
+                "file": "motions/06_love.mtn"
+            },
+            {
+                "file": "motions/07_bye.mtn"
+            },
+            {
+                "file": "motions/08_sad.mtn"
+            },
+            {
+                "file": "motions/09_yawn.mtn"
+            },
+            {
+                "file": "motions/10_yeah.mtn"
+            },
+            {
+                "file": "motions/11_muscle.mtn"
+            },
+            {
+                "file": "motions/12_stagger.mtn"
+            },
+            {
+                "file": "motions/13_cry.mtn"
+            },
+            {
+                "file": "motions/14_ sigh.mtn"
+            },
+            {
+                "file": "motions/15_joy.mtn"
+            },
+            {
+                "file": "motions/16_menace.mtn"
+            },
+            {
+                "file": "motions/17_yes.mtn"
+            },
+            {
+                "file": "motions/18_no.mtn"
+            },
+            {
+                "file": "motions/19_walk.mtn"
+            },
+            {
+                "file": "motions/20_sleep.mtn"
+            },
+            {
+                "file": "motions/01_happy.mtn"
+            },
+            {
+                "file": "motions/02_angry.mtn"
+            },
+            {
+                "file": "motions/03_fear.mtn"
+            },
+            {
+                "file": "motions/04_surprise.mtn"
+            },
+            {
+                "file": "motions/05_fun.mtn"
+            }
+]
+    },
+    "physics": "physics.json",
+    "pose": "pose.json"
+}
