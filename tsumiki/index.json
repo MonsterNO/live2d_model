@@ -1,0 +1,108 @@
+{
+    "version": "Sample 1.0.0",
+    "model": "tsumiki.moc",
+    "textures": [
+        "textures/texture_00.png",
+        "textures/texture_01.png"
+    ],
+"layout":{
+        "center_x":0.0,
+        "center_y":-0.5,
+        "width":2
+    },
+"hit_areas_custom":{
+		"head_x":[-0.35, 0.6],
+		"head_y":[0.19, -0.2],
+		"body_x":[-0.3, -0.25],
+		"body_y":[0.3, -0.9]
+	},
+    "motions": {
+        "tap_body": [
+            {
+                "file": "motions/p01.mtn"
+            },
+            {
+                "file": "motions/tsumiki_m_01.mtn"
+            },
+            {
+                "file": "motions/tsumiki_m_01_df.mtn"
+            },
+            {
+                "file": "motions/tsumiki_m_02.mtn"
+            },
+            {
+                "file": "motions/tsumiki_m_03.mtn"
+            },
+            {
+                "file": "motions/tsumiki_m_04.mtn"
+            },
+            {
+                "file": "motions/tsumiki_m_05.mtn"
+            },
+            {
+                "file": "motions/tsumiki_m_06.mtn"
+            },
+            {
+                "file": "motions/tsumiki_m_07.mtn"
+            },
+            {
+                "file": "motions/tsumiki_m_08.mtn"
+            },
+            {
+                "file": "motions/tsumiki_m_09.mtn"
+            },
+            {
+                "file": "motions/tsumiki_m_10.mtn"
+            },
+            {
+                "file": "motions/tsumiki_m_11.mtn"
+            },
+            {
+                "file": "motions/tsumiki_m_12.mtn"
+            },
+            {
+                "file": "motions/tsumiki_m_13.mtn"
+            },
+            {
+                "file": "motions/tsumiki_m_14.mtn"
+            },
+            {
+                "file": "motions/tsumiki_m_15.mtn"
+            },
+            {
+                "file": "motions/tsumiki_m_16.mtn"
+            },
+            {
+                "file": "motions/tsumiki_m_17.mtn"
+            },
+            {
+                "file": "motions/tsumiki_m_18.mtn"
+            },
+            {
+                "file": "motions/tsumiki_m_19.mtn"
+            },
+            {
+                "file": "motions/tsumiki_m_20.mtn"
+            },
+            {
+                "file": "motions/tsumiki_m_21.mtn"
+            },
+            {
+                "file": "motions/tsumiki_m_22.mtn"
+            },
+            {
+                "file": "motions/tsumiki_m_24.mtn"
+            },
+            {
+                "file": "motions/tsumiki_m_23.mtn"
+            }
+        ],
+        "idle": [
+            {
+                "file": "motions/tsumiki_idle_01.mtn"
+            }
+        ]
+    },
+    "physics": "tsumiki.physics.json",
+    "name": "tsumiki"
+}
